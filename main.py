@@ -47,11 +47,11 @@ for i in range(iterations):
     if(rGuess == answer):
         rCorrect += 1
 
-    if(round(i%(0.5/iterations)) == 0):
+    if(i%round((iterations*0.05)) == 0):
         print(f"{round((i/iterations)*100,3)}%")
 
 
-for i in range(5):
+for i in range(2):
     print("")
 print(f"Number Correct Randomly: {rCorrect}")
 print(f"Number Correct By Changing: {bChangeCorrect}")
