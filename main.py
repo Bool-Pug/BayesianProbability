@@ -5,7 +5,7 @@ bChangeCorrect = 0
 bRandomCorrect = 0
 rCorrect = 0
 
-iterations = round(1E6)
+iterations = round(1E7)
 answers = []
 for i in range(iterations):
     answers.append(random.randint(1,3))
